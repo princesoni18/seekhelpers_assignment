@@ -1,16 +1,27 @@
 # seekhelpers_assignment
+## DEMO
 
-A new Flutter project.
+![app demo](https://github.com/user-attachments/assets/4a31d09a-5fd1-414a-a900-48f52dd81d4e)
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+Make sure you have the following installed:
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter 3.22.3**
+- **Dart 3.4.4**
+- **Android Studio or VS Code** (with Flutter and Dart plugins)
+- **Android SDK 34**
+- **Gradle 8.7**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-flutter-project.git
+cd your-flutter-project
+flutter pub get
+flutter run
+
