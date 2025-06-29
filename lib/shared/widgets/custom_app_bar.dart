@@ -47,7 +47,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               onPressed: onBackPressed ?? () => AppNavigator.pop(context),
             )
           : null),
-      automaticallyImplyLeading: false, // We handle this manually
+      automaticallyImplyLeading: false, 
       backgroundColor: backgroundColor ?? Colors.deepPurple,
       foregroundColor: foregroundColor ?? Colors.white,
       elevation: elevation ?? 0,

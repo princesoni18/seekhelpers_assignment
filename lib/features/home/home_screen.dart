@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
         final listPadding = isDesktop ? EdgeInsets.symmetric(horizontal: constraints.maxWidth * 0.2) : isTablet ? EdgeInsets.symmetric(horizontal: constraints.maxWidth * 0.1) : EdgeInsets.symmetric(horizontal: 16.w);
         return Scaffold(
           backgroundColor: AppColors.grey50,
-          appBar: ResponsiveAppBar(
+          appBar:const  ResponsiveAppBar(
             title: 'Users Directory',
             automaticallyImplyLeading: false, // Home screen doesn't need back button
           ),
@@ -104,7 +104,7 @@ class HomeScreen extends StatelessWidget {
                             decoration: BoxDecoration(
                               color: AppColors.white,
                               borderRadius: BorderRadius.circular(12.r),
-                              boxShadow: [
+                              boxShadow: const [
                                 BoxShadow(
                                   color: AppColors.greyWithOpacity,
                                   spreadRadius: 1,
@@ -139,8 +139,10 @@ class HomeScreen extends StatelessWidget {
                               title: Text(
                                 user.name,
                                 style: TextStyle(
+                                  color: Colors.black,
                                   fontSize: isDesktop ? 22.sp : isTablet ? 18.sp : 16.sp,
                                   fontWeight: FontWeight.w600,
+                                  overflow: TextOverflow.ellipsis
                                 ),
                               ),
                               subtitle: Text(
